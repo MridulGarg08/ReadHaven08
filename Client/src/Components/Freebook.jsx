@@ -10,7 +10,7 @@ const Freebook = () => {
     useEffect(()=>{
         const getbook=async()=>{
         try {
-            const res=await axios.get('http://localhost:4001/book')
+            const res=await axios.get('https://readhaven08jbs.onrender.com/book')
             setbook(res.data)
             console.log(res.data)
         } catch (error) {
