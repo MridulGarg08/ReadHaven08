@@ -6,7 +6,7 @@ function Cards({item}) {
               <div className="card bg-base-100 w-92 shadow-xl hover: scale-105 duration-150 bg dark:bg-slate-900 dark:text-white">
                   <figure>
                       <img className='rounded-lg'
-                          src={window.location.origin+item.image}
+                          src={item.image}
                           alt="Shoes" />
                   </figure>
                   <div className="card-body">
