@@ -26,7 +26,7 @@ try {
 } catch (error) {
   console.log("Error: ",error) 
 }
-app.use(express.static(path.join(__dirname,"public")));
+app.use(express.static('public'))
 //Definining Routes
 app.use('/book',bookroute);
 app.use('/user',userroute);
