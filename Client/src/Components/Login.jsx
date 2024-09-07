@@ -15,7 +15,7 @@ function Login() {
       email:data.email,
       pass:data.pass
     }
-    await axios.post("http://localhost:4001/user/login",userinfo)
+    await axios.post("https://readhaven08jbs.onrender.com/user/login",userinfo)
     .then((res)=>{
       console.log(res.data)
       if(res.data)
