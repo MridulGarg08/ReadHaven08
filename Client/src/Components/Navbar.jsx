@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import Login from './login';
+import Login from './Login';
 import { useAuth } from '../Context/AuthProvider';
 import Logout from "../Components/Logout"
 const Navbar = () => {
